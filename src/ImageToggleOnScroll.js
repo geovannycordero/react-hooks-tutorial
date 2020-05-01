@@ -19,7 +19,7 @@ const ImageToggleOnScroll = ({ primaryImg, secondaryImg }) => {
   const isInView = () => {
     if (imageRef.current) {
       const rect = imageRef.current.getBoundingClientRect();
-      return rect.top >= 0 && rect.botton <= window.innerHeight;
+      return rect.top >= 0 && rect.bottom <= window.innerHeight;
     }
     return false;
   };
@@ -36,6 +36,6 @@ const ImageToggleOnScroll = ({ primaryImg, secondaryImg }) => {
       alt="" ref={imageRef} width="256" height="256"
     />
   );
-}
+};
 
 export default ImageToggleOnScroll;
