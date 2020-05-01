@@ -3,6 +3,7 @@
 Resouce: Pluralsight tutotrial [Using React Hooks](https://app.pluralsight.com/library/courses/using-react-hooks/table-of-contents)
 
 React Hooks provide a direct API to React concepts you already know about, like props, state, context, refs and lifecycle events. 
+
 _Concepts covered_:
 - both basic and advanced techniques for using React Hooks in React functional components where previously there was no good way to manage state or lifecycle events. 
 - how to use all of the built-in React Hooks provided by the React team.
