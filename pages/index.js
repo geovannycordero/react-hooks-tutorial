@@ -6,14 +6,14 @@ const InputElement = () => {
   const [histiryList, setHistoryList] = useState([]);
 
   return <div>
-    <input 
+    <input
       onChange={(e) => {
         setInputText(e.target.value)
         setHistoryList([...histiryList, e.target.value])
       }}
-      placeholder="Enter some text" 
+      placeholder="Enter some text"
     />
-    <br/>
+    <br />
     {inputText}
     <ul>
       {histiryList.map((rec) => {

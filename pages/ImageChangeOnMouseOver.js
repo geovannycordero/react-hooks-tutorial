@@ -4,8 +4,8 @@ const ImageChangeOnMouseOver = () => {
   return (
     <div>
       <ImageTogglerOnMouseOver
-        primaryImg="/static/screens/bw/image_9.png"
-        secondaryImg="/static/screens/image_9.png"
+        primaryImg="/static/screens/bw/image_2.png"
+        secondaryImg="/static/screens/image_2.png"
       />
       &nbsp;&nbsp;&nbsp;
       <ImageTogglerOnMouseOver
